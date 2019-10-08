@@ -1,4 +1,5 @@
 require 'pry'
+require relative './lib/concerns/memorable'
 
 class Artist
   extend Memorable 
